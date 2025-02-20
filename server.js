@@ -1,4 +1,6 @@
 require('dotenv').config();
+const openaiApiKey = process.env.OPENAI_API_KEY;
+
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
